@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title> Priya's world </title>
+
+  <!--link for the favicon-->
+  <link rel="icon" type="image/x-icon" href="priya_logo.png">
+
+  <!--link for the external style sheet-->
+  <link rel="stylesheet" href="p_style.css">
+</head>
+
+
+<!--body tag starts here-->
+<body>
+    <!--header tag starts here-->
+    <header id="p_header">
+       <h1 id="headertext" onclick="myFunction()">
+        Spring wedding ready... 
+       </h1>
+    <!--header tag ends here-->
+    </header>
+
+    <!--nav tag starts here-->
+    <nav class="menu" id="menubar">
+        <ul>
+            <li>
+                <a href="ourspecialoffers">OUR SPECIAL OFFERS</a>
+            </li>
+            <li>
+                <a href="bridegowns">BRIDE GOWNS</a>
+            </li>
+            <li>
+                <a href="bridemaiddress">BRIDEMAID DRESS</a>
+            </li>            
+            <li>
+                <a href="accessories">ACCESSORIES</a>
+            </li>
+            <li>
+                <a href="ring">RING</a>
+            </li>
+            <li>
+                <a href="events">EVENTS</a>
+            </li>
+            <li>
+                <a href="aboutus">ABOUT US</a>
+            </li>
+        </ul>
+    <!--nav tag ends here-->
+    </nav>
+
+    <!--section tag starts here-->
+    <section>
+       <h1 id="heading">Shop for your wedding</h1>
+       <p id="text1">
+           Shop with us for your special <moments class=""></moments>
+       </p>
+       <hr>
+       <div class="row" id="p_row">
+        <div class="column" id="p_column">
+          <img id="p_img"src="gown.jpg" height="500" width="500">
+        </div>
+        <div class="column" id="p_column">
+          <h2 id="p_h2">Wedding gowns</h2>
+          <button class="button">SHOP NOW</button>
+        </div>
+      </div>
+      <div class="row" id="p_row">
+        <div class="column" id="p_column">
+            <h2 id="p_h2">Bridemaid Dresses</h2>
+            <button class="button">SHOP NOW</button>
+          </div>
+        <div class="column" id="p_column">
+          <img id="p_img" src="bridemaid.jpg" height="400" width="500">
+        </div>
+      </div>
+      <div class="row" id="p_row">
+        <div class="column" id="p_column">
+          <img id="p_img"src="rings.jpg" height="400" width="600">
+        </div>
+        <div class="column" id="p_column">
+          <h2 id="p_h2">Wedding rings</h2>
+          <button class="button">SHOP NOW</button>
+        </div>
+      </div>
+      <div class="row" id="p_row">
+        <div class="column" id="p_column">
+            <h2 id="p_h2">Bridal accessories</h2>
+            <button class="button">SHOP NOW</button>
+          </div>
+        <div class="column" id="p_column">
+          <img id="p_img" src="grown.jpg" height="400" width="500">
+        </div>
+      </div>
+
+      <div class="row" id="p_row">
+        <div class="column" id="p_column">
+          <img id="p_img" src="couple.jpg" height="500" width="500">
+        </div>
+        <div class="column" id="p_column">
+          <h2 id="p_h2">All Events planning</h2>
+          <button class="button">SHOP NOW</button>
+        </div>
+      </div>
+
+
+        <h1 id="heading"> Shop with us </h1>
+        <p id="text1">
+            Shop our own degined gowns for your most special moments..
+        </p>
+        <hr>
+        <div class="container">
+            <img src="Gif_img.gif" height="600" width="100%">
+        </div>
+    <!--section tag starts here-->
+    </section>
+    
+    <!--footer tag starts here-->
+    <footer>
+        <div class="container" id="p_container">
+            <div class="row">
+                <div class="column" id="p_col">
+                    <h2>Our shops</h2>
+                    <ul>
+                        <li><a href="chennai">Chennai</a></li>
+                        <li><a href="mumbai">Mumbai</a></li>
+                        <li><a href="kolkata">Kolkata</a></li>
+                    </ul>
+                </div>
+                <div class="column" id="p_col">
+                    <h2>Campany</h2>
+                    <ul>
+                        <li><a href="shopwithus">Shop with us</a> </li>
+                        <li><a href="contactus">Contact us</a></li>
+                    </ul>
+                </div>
+                <div class="column" id="p_col">
+                    <h2>Need help?</h2>
+                    <input type="text" placeholder="Enter your mail id">
+                    <button id="p_button" onclick="subFunction()">Subscribe</button>
+                </div>
+        </div>
+    <!--footer tag ends here-->
+    </footer>
+<!--body tag ends here-->
+</body>
+<script>
+  function myFunction() {
+     document.getElementById("p_header").style.backgroundImage = "url(priya_logo.png)";
+     document.getElementById("headertext").style.display = "none";  
+  }
+  
+  function subFunction(){
+    alert("Welcome to Priya's world!!");
+  }
+
+  </script>
+  
+</html>

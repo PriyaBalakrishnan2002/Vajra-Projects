@@ -1,0 +1,188 @@
+/*style for body tag*/
+body{
+  margin:0;
+  padding:0;
+  overflow-x:hidden;
+}
+
+/*Style for header tag*/
+header{
+background-image: url('p_backimg.jpg');
+height: 500px;
+width:100%;
+background-repeat:no-repeat;
+background-size: 100% 500px;
+}
+
+/*Style for headertext id*/
+#headertext{
+padding-top: 200px;
+padding-left: 150px;
+color:ghostwhite;
+font-family:serif;
+font-style:italic;
+font-size:50px;
+}
+
+/*Style for class menu ul*/
+.menu ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color:#b2cbdb;
+}
+
+/*Style for class menu li*/
+.menu li {
+float: left;
+}
+
+/*Style for class menu li*/
+.menu li a {
+display: block;
+color:rgb(88, 88, 88);
+text-align: center;
+padding: 16px;
+text-decoration: none;
+}
+
+/*Style for class menu hover*/
+.menu li a:hover {
+background-color:white;
+color:black;
+font-weight: 600;
+}
+
+/*Style for id heading*/
+#heading{
+text-align: center;
+font-size: 70px;
+font-family: 'Times New Roman', Times, serif;
+}
+
+/*Style for id text1*/
+#text1{
+text-align: center;
+color:gray;
+font-size: 30px;
+}
+
+/*Style for hr tag*/
+hr{
+width:500px;
+color:dimgray;
+}
+
+/*Style for the box*/
+* {
+box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other for footer part */
+.column {
+float: left;
+width: 300px;
+padding: 10px;
+height: 650px; 
+}
+
+/*Style for h2 tag*/
+h2{
+text-align:left;
+color:darkslategrey;
+font-family: serif;
+}
+
+/*Style for p tag*/
+p{
+font-size: 20px;
+color:rgb(64, 66, 64);
+font-family: serif;
+}
+
+
+/* Create two equal columns that floats next to each other */
+#p_column {
+float: left;
+width: 50%;
+padding: 10px;
+height: 500px; 
+text-align: center;
+font-size: 50px;
+}
+
+/*style for id p_img on hover*/
+#p_img:hover {
+  content: url('priya_logo.png');
+}
+
+/*style for p_img*/
+#p_img{
+  border-radius: 100px;
+}
+
+/*Style for id p_h2*/
+#p_h2{
+color:rgb(58, 102, 128);
+font-family: serif;
+}
+
+/*Style for class button*/
+.button{
+background-color: #f5e9f4;
+color: rgb(17, 12, 12);
+padding: 10px;
+text-align: center;
+font-size: 20px;
+font-family: serif;
+cursor: pointer;
+border-radius: 20px;
+width: 200px;
+box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+/*Style for footer tag*/
+footer{
+background-color:rgb(117, 117, 116);
+height:200px;
+width: 100%;
+}
+
+/*style for ul tag in the footer*/
+footer ul {
+  list-style-type: none;
+  overflow: hidden;
+  font-size:20px;
+  }
+  
+/*Style for id p_container*/
+#p_container{
+height:200px;
+background-color: #7e7f80; 
+}
+
+/*Style for id col1*/
+#p_col{
+height:200px;
+}
+
+/*style for input box*/
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid maroon;
+  background-color: rgb(253, 207, 207);
+}
+
+/*style for id p_button*/
+#p_button{
+  color:orange;
+  background-color: red;
+  height:30px;
+  width:100px;
+  border-radius: 20px;
+}
