@@ -1,0 +1,104 @@
+/*style for body tag*/
+body{
+   background-color:rgb(172, 94, 250);
+}
+
+/*style for class container*/
+.container{
+   background-color: rgb(198, 212, 252);
+}
+
+/*style for id head and id foot*/
+#head,#foot{
+   background-color: rgb(178, 196, 247);
+   height: 150px;
+}
+
+/*style for id btn1*/
+#btn1,#btn01{
+   margin:0px 450px;
+   font-size: 20px;
+   border-radius: 20px;
+   height:50px;
+   width: 200px;
+}
+
+/*style for id btn2, id btn3, id btn4, id btn5, id btn6 and id btn7*/
+#btn2,#btn3,#btn4,#btn5,#btn6,#btn7{
+    margin:0px 100px;
+    font-size: 20px;
+    border-radius: 20px;
+    height:50px;
+    width: 100px;
+ }
+
+/*style for h1 tag*/
+h1{
+    text-align: center;
+    padding: 20px;
+}
+
+/*style for h3 tag*/
+h3{
+   text-align: center;
+   padding: 30px;
+}
+
+/*style for h4 tag*/
+h4{
+   text-align: center;
+   padding: 30px;
+}
+
+/*style for img tag*/
+img{
+    height: 200px;
+    width:300px;
+    padding:30px;
+}
+
+/*style for table tag*/
+table{
+   margin:0px 90px;
+}
+
+/*style for  id tab*/
+#tab{
+   margin:20px 130px;
+}
+
+/*style for article tag*/
+article{
+   height: 400px;
+}
+
+/*style for id btn8*/
+#btn8{
+   margin:30px 180px;
+   font-size: 20px;
+   border-radius: 20px;
+   height:50px;
+   width: 100px;
+}
+
+/*style for id btn9*/
+#btn9{
+   margin:90px 180px;
+   font-size: 20px;
+   border-radius: 20px;
+   height:50px;
+   width: 100px;
+}
+
+/*style for footer tag*/
+footer{
+   text-align:center;
+}
+
+/*style for id btn10*/
+#btn10{
+   font-size: 20px;
+   border-radius: 20px;
+   height:50px;
+   width: 400px;
+}

@@ -1,0 +1,70 @@
+    /*Style for body */
+    body {
+       font-family:'Times New Roman', Times, serif;
+       background-image:url('back_img.jpg');
+       background-repeat: no-repeat;
+       background-size: cover;
+       color:whitesmoke;
+       text-align: center;
+       padding-top:300px;
+    }
+    
+    /*Style for class modal */    
+    .modal {
+      display: none;
+      position: fixed; 
+      padding-top: 100px;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%; 
+      background-color: rgba(131, 157, 197,0.4);
+    }
+    
+    /*Style for class modal-content*/    
+    .modal-content {
+      background-color: silver;
+      padding: 20px;
+      margin:100px;
+      text-align: center;
+      border: 2px solid rgb(16, 4, 58);
+      width: 80%;
+    }
+
+    /*style for h3 tag*/
+     h3{
+      color:black;
+      font-size: 30px;
+      font-weight: 600;
+     }
+
+    /*Style for class close*/
+    .close {
+      color: gainsboro;
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
+    }
+
+    /*Style for class close on hover*/
+    .close:hover {
+      color: black;
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+
+    /*style for tag button*/
+    button{
+        background-color: rgb(236, 173, 96);
+        border: 2px solid brown;
+        height:50px;
+        width:150px;
+        font-size:20px;
+     }
+
+     /*style for p tag*/
+     p{
+       font-size:20px;
+       color:crimson;
+     }

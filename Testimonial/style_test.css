@@ -1,0 +1,56 @@
+/*style for body tag*/
+body{
+    background-color:#fddff1;
+}
+
+/*style for class testimonial*/
+.testimonial{
+    text-align: center;
+    margin:40px;
+}
+
+/*style for class pic inner class of testimonial*/
+.testimonial .pic{
+    display:inline-block;
+    width: 150px;
+    height: 150px;
+    border-radius: 70px;
+    border: 4px solid #380121;
+    box-shadow: 5px 7px  #c52c85;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+/*style for img  tag */
+.testimonial .pic img{
+    width: 100%;
+    height: auto;
+}
+
+/*style for class description inner class of testimonial*/
+.testimonial .description{
+    padding: 20px ;
+    font-size: 20px;
+    color: rgb(94, 8, 58);
+    border-radius: 25px;
+    border-bottom: 4px solid  #380121;
+    box-shadow: 0 7px #c52c85;
+    margin-bottom: 25px;
+}
+
+/*style for class name inner class of testimonial*/
+.testimonial .name{
+    display: block;
+    margin-bottom: 7px;
+    font-size: 30px;
+    font-weight: 700;
+    color:  #380121;
+    letter-spacing: 1px;
+}
+
+/*style for class post inner class of testimonial*/
+.testimonial .post{
+    display: block;
+    color: #c52c85;
+}
+

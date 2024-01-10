@@ -1,0 +1,194 @@
+/*style for body tag*/
+body{
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+}
+/*Style for header tag*/
+header{
+  background-image: url('cafe.jpg');
+  height: 500px;
+  width:100%;
+  background-repeat:no-repeat;
+  background-size: 100% 500px;
+ }
+/*Style for headertext id*/
+#headertext{
+  text-align:center;
+  padding: 4em;
+  color:ghostwhite;
+  font-family:serif;
+  font-style:italic;
+  font-size:50px;
+}
+/*Style for class menu ul*/
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#b2cbdb;
+}
+/*Style for class menu li*/
+.menu li {
+  float: left;
+}
+/*Style for class menu li*/
+.menu li a {
+  display: block;
+  color:rgb(88, 88, 88);
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+/*Style for class menu hover*/
+.menu li a:hover {
+  background-color:white;
+}
+/*Style for article tag*/
+article{ 
+  height:2550px;
+}
+/*Style for id heading*/
+#heading{
+  text-align: center;
+  font-size: 70px;
+  font-family: 'Times New Roman', Times, serif;
+}
+/*Style for id text1*/
+#text1{
+  text-align: center;
+  color:gray;
+  font-size: 30px;
+}
+/*Style for hr tag*/
+hr{
+  width:500px;
+  color:dimgray;
+}
+/*Style for the box*/
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 650px; 
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/*Style for h2 tag*/
+h2{
+  text-align:left;
+  color:darkslategrey;
+  font-family: serif;
+}
+/*Style for p tag*/
+p{
+  font-size: 20px;
+  color:rgb(64, 66, 64);
+  font-family: serif;
+}
+/*Style for id num*/
+#num{
+  height: 20px;
+  width:40px;
+}
+/*Style for quanty id*/
+#quanty{
+  color:rgb(7, 133, 28) ;
+  font-size: 20px;
+}
+/*Style for class button1*/
+.button1{
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 20px;
+  width: 100px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+/*Style for class bot1*/
+#bot1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+
+}
+
+/* Create two equal columns that floats next to each other */
+#p_column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 500px; 
+  text-align: center;
+  font-size: 50px;
+}
+/* Clear floats after the columns */
+#p_row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/*Style for id p_h2*/
+#p_h2{
+  color:rgb(128, 128, 58);
+  font-family: serif;
+}
+/*Style for class button*/
+.button{
+  background-color: #d3f7a4;
+  color: rgb(17, 12, 12);
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+  font-family: serif;
+  cursor: pointer;
+  border-radius: 20px;
+  width: 200px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+/*Style for id btn*/
+#btn{
+  justify-content: center;
+  height: 50px;
+  background-color: rgb(250, 218, 158);
+  font-weight: bolder;
+  color:rgb(17, 12, 12);
+  display: block;
+  margin-left: 500px;
+  margin-right: auto;
+  
+}
+/*Style for footer tag*/
+footer{
+  background-color:rgb(117, 117, 116);
+  height:200px;
+  width: 100%;
+}
+/*Style for id list*/
+#list{
+   font-size:20px;
+}
+/*Style for id p_container*/
+#p_container{
+  height:200px;
+  background-color: #7e7f80; 
+}
+/*Style for id col1*/
+#col1{
+  height:200px;
+}
